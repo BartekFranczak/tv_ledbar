@@ -1,0 +1,4 @@
+{
+    "zmq_pub_socket":5560,
+    "zmq_sub_socket":5559 
+}
