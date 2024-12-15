@@ -50,3 +50,11 @@ RECEPIENT_EMAIL = "<RECEPIENT_EMAIL>"
 ```
 message_type can be "video","image" or "text"
 eg. atachment_paths:["/path/to/file1.png","/path/to/file2.mp4","/path/to/file3.txt"]
+### notifier_response
+```
+{
+    "type": str,
+    "sending_status": bool
+}
+```
+type can be "whatsapp" or "email"
