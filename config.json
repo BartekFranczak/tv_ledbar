@@ -1,4 +1,8 @@
 {
     "zmq_pub_socket":5560,
-    "zmq_sub_socket":5559 
+    "zmq_sub_socket":5559,
+    "ledbar":{
+        "data_pin":1234,
+        "how_many":1234
+    }
 }
