@@ -20,19 +20,19 @@ https://www.youtube.com/watch?v=Y8kihPdCI_U
 3. Setup an app password for this google account (we will use this pwd for authentication)
 ### Make the .env file with content as bellow
 
-"""
+'''
 RECEPIENT_PHONE_NUMBER="<COUNTRY_CODE><PHONENUMBER>"
 META_ACCES_TOKEN = "<PERMANENT_ACCES_TOKEN>"
 META_PHONE_NUMBER_ID = "<WHATSAP_PHONE_ID>"
 MAIL_EMAIL_ADDRESS = "<YOUR_APP_NEW_EMAIL>"
 GMAIL_APP_PASSWORD = "<GMAIL_APP_PWD>"
 RECEPIENT_EMAIL = "<RECEPIENT_EMAIL>"
-"""
+'''
 
 ## ZMQ Message topics and message types
 
 ### notifier
-"""
+'''
 {
     "whatsapp": {
         "send":bool,
@@ -47,6 +47,6 @@ RECEPIENT_EMAIL = "<RECEPIENT_EMAIL>"
         "atachment_paths":[str,...,str]
     }
 }
-"""
+'''
 message_type can be "video","image" or "text"
 eg. atachment_paths:["/path/to/file1.png","/path/to/file2.mp4","/path/to/file3.txt"]
